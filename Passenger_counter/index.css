@@ -1,0 +1,50 @@
+body{
+    background-image: url("station.jpg");
+    background-position: cover;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#increment-btn{
+    background: #5b3;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.6;
+}
+#increment-btn:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+#increment-btn:focus{
+    background: #13a12b;
+}
+
+#save-btn{
+    background: #e90808;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    opacity: 0.6;
+}
+#save-btn:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+    background: #e90808;
+}
+#save-btn:focus{
+    background: #740808;
+}
